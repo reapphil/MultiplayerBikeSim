@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 5b15be5896e6077439b6695895badd52
+timeCreated: 1453281523
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: LOD_00_Cbike_body
+    100002: LOD_00_Cbike_brake_L
+    100004: LOD_00_Cbike_brake_R
+    100006: LOD_00_Cbike_cables
+    100008: LOD_00_Cbike_chain
+    100010: LOD_00_Cbike_chain_set
+    100012: LOD_00_Cbike_gear_01
+    100014: LOD_00_Cbike_gear_02
+    100016: LOD_00_Cbike_gear_03
+    100018: LOD_00_Cbike_handlebar
+    100020: LOD_00_Cbike_pedal_L
+    100022: LOD_00_Cbike_pedal_R
+    100024: LOD_00_Cbike_seat
+    100026: LOD_00_Cbike_wheel_front
+    100028: LOD_00_Cbike_wheel_rear
+    100030: //RootNode
+    100032: LOD_01_Cbike_chain
+    100034: EnoData
+    100036: RoadKillOut01
+    100038: LOD_00_Cbike_cables_bones01
+    100040: LOD_00_Cbike_cables_bones02
+    400000: LOD_00_Cbike_body
+    400002: LOD_00_Cbike_brake_L
+    400004: LOD_00_Cbike_brake_R
+    400006: LOD_00_Cbike_cables
+    400008: LOD_00_Cbike_chain
+    400010: LOD_00_Cbike_chain_set
+    400012: LOD_00_Cbike_gear_01
+    400014: LOD_00_Cbike_gear_02
+    400016: LOD_00_Cbike_gear_03
+    400018: LOD_00_Cbike_handlebar
+    400020: LOD_00_Cbike_pedal_L
+    400022: LOD_00_Cbike_pedal_R
+    400024: LOD_00_Cbike_seat
+    400026: LOD_00_Cbike_wheel_front
+    400028: LOD_00_Cbike_wheel_rear
+    400030: //RootNode
+    400032: LOD_01_Cbike_chain
+    400034: EnoData
+    400036: RoadKillOut01
+    400038: LOD_00_Cbike_cables_bones01
+    400040: LOD_00_Cbike_cables_bones02
+    2300000: LOD_00_Cbike_body
+    2300002: LOD_00_Cbike_brake_L
+    2300004: LOD_00_Cbike_brake_R
+    2300006: LOD_00_Cbike_cables
+    2300008: LOD_00_Cbike_chain
+    2300010: LOD_00_Cbike_chain_set
+    2300012: LOD_00_Cbike_gear_01
+    2300014: LOD_00_Cbike_gear_02
+    2300016: LOD_00_Cbike_gear_03
+    2300018: LOD_00_Cbike_handlebar
+    2300020: LOD_00_Cbike_pedal_L
+    2300022: LOD_00_Cbike_pedal_R
+    2300024: LOD_00_Cbike_seat
+    2300026: LOD_00_Cbike_wheel_front
+    2300028: LOD_00_Cbike_wheel_rear
+    2300030: LOD_01_Cbike_chain
+    2300032: RoadKillOut01
+    3300000: LOD_00_Cbike_body
+    3300002: LOD_00_Cbike_brake_L
+    3300004: LOD_00_Cbike_brake_R
+    3300006: LOD_00_Cbike_cables
+    3300008: LOD_00_Cbike_chain
+    3300010: LOD_00_Cbike_chain_set
+    3300012: LOD_00_Cbike_gear_01
+    3300014: LOD_00_Cbike_gear_02
+    3300016: LOD_00_Cbike_gear_03
+    3300018: LOD_00_Cbike_handlebar
+    3300020: LOD_00_Cbike_pedal_L
+    3300022: LOD_00_Cbike_pedal_R
+    3300024: LOD_00_Cbike_seat
+    3300026: LOD_00_Cbike_wheel_front
+    3300028: LOD_00_Cbike_wheel_rear
+    3300030: LOD_01_Cbike_chain
+    3300032: RoadKillOut01
+    4300000: LOD_00_Cbike_cables
+    4300002: LOD_00_Cbike_chain_set
+    4300004: LOD_00_Cbike_body
+    4300006: LOD_00_Cbike_chain
+    4300008: LOD_00_Cbike_gear_01
+    4300010: LOD_00_Cbike_gear_02
+    4300012: LOD_00_Cbike_gear_03
+    4300014: LOD_00_Cbike_wheel_front
+    4300016: LOD_01_Cbike_chain
+    4300018: LOD_00_Cbike_seat
+    4300020: LOD_00_Cbike_wheel_rear
+    4300022: LOD_00_Cbike_pedal_R
+    4300024: LOD_00_Cbike_pedal_L
+    4300026: LOD_00_Cbike_handlebar
+    4300028: LOD_00_Cbike_brake_R
+    4300030: LOD_00_Cbike_brake_L
+    4300032: RoadKillOut01
+    9500000: //RootNode
+    13700000: LOD_00_Cbike_cables
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

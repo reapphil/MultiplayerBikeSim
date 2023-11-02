@@ -1,0 +1,430 @@
+{
+    "name": "BycicleSteering",
+    "maps": [
+        {
+            "name": "Bicycle",
+            "id": "9c993d00-6fd4-4046-b659-737bfe6ddf8e",
+            "actions": [
+                {
+                    "name": "LeftRight",
+                    "type": "Value",
+                    "id": "35eb6034-dbfd-4883-bcd3-d9547e5fc303",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Accelerate",
+                    "type": "Value",
+                    "id": "cf1616c2-4182-4e27-8ca9-cd18dcf29bd2",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Break",
+                    "type": "Value",
+                    "id": "435027e1-7103-45bd-b492-8c396a4c9319",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "6eccf6e0-a462-468e-ad95-79481c5d7b8f",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "91024696-d8f1-40e1-ab3e-b3218d0ddc4f",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "8ea04100-f038-4f81-9108-49b805b93d12",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "6c8b0076-97dd-4e3b-a4c4-3dcfbca04569",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "ec0e9113-c20f-496c-9710-32612f2581ca",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "0f2f7e4e-fa30-483d-861c-9d7efa205793",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "a6f71492-ce62-4c53-a1e4-f6a9293383f4",
+                    "path": "<Gamepad>/leftStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Button With One Modifier",
+                    "id": "8e89f703-83a8-46e2-8991-74850f18c01c",
+                    "path": "ButtonWithOneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "button",
+                    "id": "fa7e0956-c78c-4e16-91e0-b231dee4aad9",
+                    "path": "<HID::Logitech Logitech RumblePad 2 USB>/stick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Button",
+                    "id": "c87bd0b2-9813-48db-8906-2fe2af922451",
+                    "path": "<HID::Logitech Logitech RumblePad 2 USB>/stick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "66e96d75-3267-4f03-92b7-deafeffef537",
+                    "path": "<HID::Logitech Logitech RumblePad 2 USB>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "12a9c045-0ac4-4758-8d36-c2a18a2efab5",
+                    "path": "<Gamepad>/rightStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Accelerate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "46ed9f0f-3fb7-4eea-90b0-338e55d67cde",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Accelerate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9d231577-f0e0-40b0-9bcd-6ab78b720477",
+                    "path": "<Joystick>/stick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Accelerate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "81a12116-45e4-4d39-94a5-a030e4303f59",
+                    "path": "<Joystick>/stick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Break",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b789ea2e-8f1a-4c72-b945-6f133c7ad9eb",
+                    "path": "<Gamepad>/rightStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Break",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9cf37c3f-a1a4-4bcb-8979-36cadcdf3f20",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Break",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a08c71a7-d0f0-4445-bfe0-ce14d8123b9a",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Break",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f78620bd-15ad-4135-a7ab-7fb796609dab",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Accelerate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "BicycleKeyboardWASD",
+            "id": "c8111a23-9ba4-4758-9cf8-aa9933929762",
+            "actions": [
+                {
+                    "name": "LeftRight",
+                    "type": "Value",
+                    "id": "ba22a1fb-0587-4dbe-b639-26bebe2055f3",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Accelerate",
+                    "type": "Value",
+                    "id": "abc345ec-9d4d-4caf-a086-cf0160272c6b",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Break",
+                    "type": "Value",
+                    "id": "47e33d11-7e27-42e1-b18f-8e433f4fcf1d",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "b58a68fb-f195-4a4a-af1d-e68f88882893",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "2d28cf06-2294-4aad-9abb-453825fdb993",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "e3c4545f-6bee-4e39-ac97-ac7648a502cb",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "bbbdc724-979d-4a88-85c0-907485106640",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Accelerate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bc40d3b3-8090-4da3-b985-97cc66c7bf0a",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Break",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "BicycleKeyboardCursor",
+            "id": "9c6c8aca-4a0f-45c8-beee-68eeb7279c57",
+            "actions": [
+                {
+                    "name": "LeftRight",
+                    "type": "Value",
+                    "id": "73ea7090-e210-43ac-b904-15c1f81415b6",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Accelerate",
+                    "type": "Value",
+                    "id": "66512caa-c3a6-4b08-aee1-59102f078c30",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Break",
+                    "type": "Value",
+                    "id": "95055ac6-c061-4732-af3e-21cd39137b8a",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "426c50a1-053b-4cb0-8f03-dd50101f4fcc",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "532b66ea-4f13-45e9-96f9-8f47ea32e4fb",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "bbeebf85-84b2-45f5-9eea-bced8c5c00cc",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "9c5bfdd6-6a60-4d2d-89df-edd8d9cbf95b",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Accelerate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eea28614-58c9-4e5c-a042-4cd543c9e0f8",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Break",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
