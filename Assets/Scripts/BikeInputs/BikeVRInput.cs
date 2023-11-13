@@ -14,7 +14,7 @@ The code simply sets the calculated speed and steering angle in bike controller 
 */
 
 
-public class BikeVRInput : BikeInputBase
+public class BikeVRInput : InputBase
 {
     [SerializeField] private Camera _camera;
     [SerializeField] private ActionBasedController roationController;
@@ -24,46 +24,53 @@ public class BikeVRInput : BikeInputBase
     private Quaternion controllerZeroRotation;
     private Quaternion initialHandlebarRotation;
     private Quaternion controllerRotationSmoothed;
-    private BikeController bikeControllerScript;
+    private BikeController _bikeControllerScript;
 
     private float _speed;
     private float _steeringAngle;
+    public override SpeedComposition SpeedComposition => SpeedComposition.SingleValue;
 
-    public override InputMode InputMode => InputMode.VR;
-    public override bool IsVR => true;
-
-    public override void Initialize(BikeController bikeController)
+    public override void Initialize(BaseVehicleController baseVehicleController)
     {
-        bikeControllerScript = bikeController;
+        _bikeControllerScript = baseVehicleController as BikeController;
         UduinoManager.Instance.OnDataReceived += ProcessSerialData;
 
         controllerZeroRotation = roationController.transform.localRotation;
-        initialHandlebarRotation = bikeControllerScript.HandleBar.localRotation;
-        bikeControllerScript = GetComponent<BikeController>();
+        initialHandlebarRotation = _bikeControllerScript.HandleBar.localRotation;
         var inputDevices = new List<UnityEngine.XR.InputDevice>();
         UnityEngine.XR.InputDevices.GetDevicesWithCharacteristics(UnityEngine.XR.InputDeviceCharacteristics.Left, inputDevices);
         controllerRotationSmoothed = roationController.transform.localRotation;
     }
 
-    public override float GetSpeed()
+    protected override float getSpeed()
     {
         return _speed;
     }
 
-    public override float GetSteeringAngle()
+    protected override float getThrottle()
+    {
+        return 0;
+    }
+
+    protected override float getBrake()
+    {
+        return 0;
+    }
+    
+    protected override float getSteeringAngle()
     {
         return _steeringAngle;
     }
 
     public override void Calibrate()
     {
-        
+        controllerZeroRotation = roationController.transform.localRotation;
     }
 
     void Update()
     {
         if(roationController.activateActionValue.action.ReadValue<float>() > 0.5f)
-            recenterSteering();
+            Calibrate();
 
         //calculate difference between current and initial rotation of the controller
         //rotate this rotation with the inverse (initial) rotaion of the handle bar (to consider head angle in rotation)
@@ -105,11 +112,4 @@ public class BikeVRInput : BikeInputBase
             }
         }
     }
-
-    public void recenterSteering()
-    {
-        controllerZeroRotation = roationController.transform.localRotation;
-    }
-
-
 }

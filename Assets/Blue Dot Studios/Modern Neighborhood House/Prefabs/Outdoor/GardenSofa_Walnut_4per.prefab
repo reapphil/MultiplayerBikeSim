@@ -1,0 +1,336 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1415738765808849085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6498335337839664483}
+  m_Layer: 0
+  m_Name: GardenSofa_Walnut_4per
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6498335337839664483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415738765808849085}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1274060416599462727}
+  - {fileID: 3629648044260932538}
+  - {fileID: 2805330054570836154}
+  - {fileID: 294172024030804791}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &316874034920881468
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6498335337839664483}
+    m_Modifications:
+    - target: {fileID: 2489166317113638278, guid: 06654e52ed771c94b8408251aa61698b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489166317113638278, guid: 06654e52ed771c94b8408251aa61698b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489166317113638278, guid: 06654e52ed771c94b8408251aa61698b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489166317113638278, guid: 06654e52ed771c94b8408251aa61698b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489166317113638278, guid: 06654e52ed771c94b8408251aa61698b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489166317113638278, guid: 06654e52ed771c94b8408251aa61698b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489166317113638278, guid: 06654e52ed771c94b8408251aa61698b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489166317113638278, guid: 06654e52ed771c94b8408251aa61698b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489166317113638278, guid: 06654e52ed771c94b8408251aa61698b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489166317113638278, guid: 06654e52ed771c94b8408251aa61698b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489166317113638278, guid: 06654e52ed771c94b8408251aa61698b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3008575247526700860, guid: 06654e52ed771c94b8408251aa61698b,
+        type: 3}
+      propertyPath: m_Name
+      value: GardenSet_A_Corner01_Walnut
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 06654e52ed771c94b8408251aa61698b, type: 3}
+--- !u!4 &2805330054570836154 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2489166317113638278, guid: 06654e52ed771c94b8408251aa61698b,
+    type: 3}
+  m_PrefabInstance: {fileID: 316874034920881468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3014417216780811564
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6498335337839664483}
+    m_Modifications:
+    - target: {fileID: 3688681064856220881, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_Name
+      value: GardenSet_A_Middle_Walnut
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0033302307
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.2200012
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0076a371227d80a4183389921b59bd6a, type: 3}
+--- !u!4 &1274060416599462727 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3014417216780811564}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4354445015551841628
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6498335337839664483}
+    m_Modifications:
+    - target: {fileID: 3688681064856220881, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_Name
+      value: GardenSet_A_Middle_Walnut (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0033302307
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.6060028
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0076a371227d80a4183389921b59bd6a, type: 3}
+--- !u!4 &294172024030804791 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4069850321982500459, guid: 0076a371227d80a4183389921b59bd6a,
+    type: 3}
+  m_PrefabInstance: {fileID: 4354445015551841628}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4863806173692840299
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6498335337839664483}
+    m_Modifications:
+    - target: {fileID: 8151704821218243281, guid: b8c3e22f1c3f3dc44b20e87a7ae5d1ff,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151704821218243281, guid: b8c3e22f1c3f3dc44b20e87a7ae5d1ff,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0018844604
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151704821218243281, guid: b8c3e22f1c3f3dc44b20e87a7ae5d1ff,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151704821218243281, guid: b8c3e22f1c3f3dc44b20e87a7ae5d1ff,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.840641
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151704821218243281, guid: b8c3e22f1c3f3dc44b20e87a7ae5d1ff,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151704821218243281, guid: b8c3e22f1c3f3dc44b20e87a7ae5d1ff,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151704821218243281, guid: b8c3e22f1c3f3dc44b20e87a7ae5d1ff,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151704821218243281, guid: b8c3e22f1c3f3dc44b20e87a7ae5d1ff,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151704821218243281, guid: b8c3e22f1c3f3dc44b20e87a7ae5d1ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151704821218243281, guid: b8c3e22f1c3f3dc44b20e87a7ae5d1ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151704821218243281, guid: b8c3e22f1c3f3dc44b20e87a7ae5d1ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821281686780979307, guid: b8c3e22f1c3f3dc44b20e87a7ae5d1ff,
+        type: 3}
+      propertyPath: m_Name
+      value: GardenSet_A_Corner02_Walnut
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b8c3e22f1c3f3dc44b20e87a7ae5d1ff, type: 3}
+--- !u!4 &3629648044260932538 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8151704821218243281, guid: b8c3e22f1c3f3dc44b20e87a7ae5d1ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 4863806173692840299}
+  m_PrefabAsset: {fileID: 0}

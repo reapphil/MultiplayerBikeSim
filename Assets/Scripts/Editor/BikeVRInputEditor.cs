@@ -11,7 +11,7 @@ public class BikeVRInputEditor : Editor
         if (GUILayout.Button("Recenter Steering"))
         {
             Debug.Log("Steering recentered");
-            ((BikeVRInput)target).recenterSteering();
+            ((BikeVRInput)target).Calibrate();
         }
         DrawDefaultInspector();
     }

@@ -5,6 +5,8 @@ namespace Common
     public class LevelSettings : MonoBehaviour
     {
         public Transform[] SpawnPoints;
+
+        public Camera LevelOverviewCamera;
         
         private static LevelSettings _instance;
         public static LevelSettings Instance
@@ -28,6 +30,14 @@ namespace Common
                 return;
             }
             _instance = this;
+        }
+
+        public void DeactivateOverviewCamera()
+        {
+            if (LevelOverviewCamera)
+            {
+                LevelOverviewCamera.gameObject.SetActive(false);
+            }
         }
     }
 }

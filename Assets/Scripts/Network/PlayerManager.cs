@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using BaseClasses;
 using Common;
 using Enums;
 using Fusion;
@@ -8,8 +9,8 @@ namespace Network
 {
     public class PlayerManager : MonoBehaviour
     {
-        private static List<BikeRider> _players = new List<BikeRider>();
-        public static List<BikeRider> Players => _players;
+        private static List<VehicleRider> _players = new List<VehicleRider>();
+        public static List<VehicleRider> Players => _players;
         public static int Count => Players.Count;
         public static int HumanPlayerCount {
             get
@@ -24,27 +25,27 @@ namespace Network
                 return count;
             }
         }
-        public static BikeController LocalBike;
-        public static BikeRider LocalRider;
+        public static BaseClasses.BaseVehicleController LocalVehicle;
+        public static VehicleRider LocalVehicleRider;
         public static PlayerRef LocalPlayerRef;
 
-        public static bool IsLocalPlayerReady => LocalBike && GameController.Instance;
+        public static bool IsLocalPlayerReady => LocalVehicle && GameController.Instance;
 
         
 
-        public static void AddPlayer(BikeRider rider)
+        public static void AddPlayer(VehicleRider vehicleRider)
         {
-            UnityEngine.Debug.Log($"Rider {rider.name} Added");
+            UnityEngine.Debug.Log($"Rider {vehicleRider.name} Added");
             // Sort the player list when adding players
-            _players.Add(rider);
-            if (rider.HasInputAuthority && rider.InputMode != InputMode.AI)
+            _players.Add(vehicleRider);
+            if (vehicleRider.HasInputAuthority && vehicleRider.InputMode != InputMode.AI)
             {
-                LocalRider = rider;
-                LocalPlayerRef = rider.Object.InputAuthority;
+                LocalVehicleRider = vehicleRider;
+                LocalPlayerRef = vehicleRider.Object.InputAuthority;
             }
         }
 
-        public static void RemovePlayer(BikeRider player)
+        public static void RemovePlayer(VehicleRider player)
         {
             if (player==null || !_players.Contains(player))
                 return;
@@ -54,7 +55,7 @@ namespace Network
             _players.Remove(player);
         }
         
-        public static BikeRider Get(PlayerRef playerRef)
+        public static VehicleRider Get(PlayerRef playerRef)
         {
             for (int i = _players.Count - 1; i >= 0; i--)
             {
@@ -70,7 +71,7 @@ namespace Network
             return null;
         }
 
-        public static int GetIndexOfPlayer(BikeRider player)
+        public static int GetIndexOfPlayer(VehicleRider player)
         {
             for (int i = 0; i < Players.Count; i++)
             {

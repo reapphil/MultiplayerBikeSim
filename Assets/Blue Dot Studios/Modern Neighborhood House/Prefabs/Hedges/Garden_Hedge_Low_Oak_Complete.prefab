@@ -1,0 +1,3434 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2469417660878931081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8198952741018012413}
+  m_Layer: 0
+  m_Name: Garden_Hedge_Low_Oak_Complete
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8198952741018012413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2469417660878931081}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6683904778690224838}
+  - {fileID: 6683904778093752993}
+  - {fileID: 6656901484846857272}
+  - {fileID: 7135415796176561700}
+  - {fileID: 634699078976028270}
+  - {fileID: 634699078797354266}
+  - {fileID: 634699079163441677}
+  - {fileID: 634699080646730777}
+  - {fileID: 634699079194000747}
+  - {fileID: 634699080599025017}
+  - {fileID: 634699080645004440}
+  - {fileID: 634699080139516676}
+  - {fileID: 383581979140779220}
+  - {fileID: 56562629443855791}
+  - {fileID: 2269467563148255438}
+  - {fileID: 6488717369591252258}
+  - {fileID: 2952055684197553409}
+  - {fileID: 6100028887823385879}
+  - {fileID: 3741801628330085280}
+  - {fileID: 200142570354637929}
+  - {fileID: 4764444722537766035}
+  - {fileID: 4314780895106282876}
+  - {fileID: 6364192649322051043}
+  - {fileID: 3854576870239247931}
+  - {fileID: 1769350645429710934}
+  - {fileID: 4377604470324129015}
+  - {fileID: 7815830617894303057}
+  - {fileID: 3199880583534543041}
+  - {fileID: 5907110917301919046}
+  - {fileID: 840155640377070886}
+  - {fileID: 6944313206373490481}
+  - {fileID: 4043741166485736938}
+  - {fileID: 7973175647525685491}
+  - {fileID: 6335465992426160522}
+  - {fileID: 7436529390485464913}
+  - {fileID: 6457895679050701455}
+  - {fileID: 347674332008806738}
+  - {fileID: 5086646207572931513}
+  - {fileID: 8532236642902434419}
+  - {fileID: 4981205774273456868}
+  - {fileID: 5587533501895769509}
+  - {fileID: 844354026806665755}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &46103434230310017
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999966
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.9729996
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &6335465992426160522 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 46103434230310017}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &281604585323077660
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.952
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.0299988
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &6100028887823385879 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 281604585323077660}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &483455269637257293
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.941
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999949
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.945
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &5907110917301919046 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 483455269637257293}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &955708723542417449
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.952
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000009
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.9370003
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &6488717369591252258 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 955708723542417449}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1067599346511445892
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999983
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.0009995
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &6457895679050701455 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 1067599346511445892}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1089296522553987304
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.959999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999949
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.945
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &6364192649322051043 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 1089296522553987304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1285979806543959730
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.9700012
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &5086646207572931513 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 1285979806543959730}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1328313769841496047
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000018
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.938999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &4981205774273456868 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 1328313769841496047}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1536122403762026904
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.952
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999957
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.962997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &4764444722537766035 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 1536122403762026904}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1929011826634217646
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000027
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.9230003
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &5587533501895769509 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 1929011826634217646}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2388959567554627448
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000009
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.9539986
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &8532236642902434419 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 2388959567554627448}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3493682804376158810
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999975
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.9850006
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &7436529390485464913 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 3493682804376158810}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3967946171295087162
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.903
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999949
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.945
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &6944313206373490481 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 3967946171295087162}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4173072230274067960
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999957
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.956001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &7973175647525685491 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 4173072230274067960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4267365834385395802
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.0289993
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999949
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.945
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &7815830617894303057 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 4267365834385395802}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5201963980693767621
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.952
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000018
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.919998
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &2269467563148255438 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 5201963980693767621}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5747205677171479901
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.993
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999949
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.945
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &1769350645429710934 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 5747205677171479901}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5916907284574063071
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.952
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000035
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.889999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &383581979140779220 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 5916907284574063071}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6024969549055515737
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.0159988
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &347674332008806738 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 6024969549055515737}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6163420799634233698
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.952
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999983
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.017002
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &200142570354637929 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 6163420799634233698}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6307046627979296932
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.952
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000027
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.9070015
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &56562629443855791 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 6307046627979296932}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6694327128318505005
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.9230003
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999949
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.945
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &840155640377070886 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 6694327128318505005}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6699224941312821008
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000035
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.905001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &844354026806665755 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 6699224941312821008}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6855281539973274548
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.469
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999951
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.460999
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70693356
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000015450524
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70728
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000015458095
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90.02801
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 579585772903415094, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Corner_Oak (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 579585772903415094, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c071e5fba018d194c8208837737bb743, type: 3}
+--- !u!4 &6656901484846857272 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+    type: 3}
+  m_PrefabInstance: {fileID: 6855281539973274548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6881840424457739109
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.884
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000044
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.884001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008742278
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.9106855e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &634699078976028270 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 6881840424457739109}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6881840424490046765
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.469
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000042
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.400999
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000021855692
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00030299276
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 6.622117e-12
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.035
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 579585772903415094, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Corner_Oak (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 579585772903415094, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c071e5fba018d194c8208837737bb743, type: 3}
+--- !u!4 &6683904778093752993 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+    type: 3}
+  m_PrefabInstance: {fileID: 6881840424490046765}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6881840424577908753
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.8999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000044
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.884001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008742278
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.9106855e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &634699078797354266 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 6881840424577908753}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6881840424951645514
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.393
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000042
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.400999
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70733696
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000001545934
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7068766
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000015449277
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 89.963005
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 579585772903415094, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Corner_Oak
+      objectReference: {fileID: 0}
+    - target: {fileID: 579585772903415094, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c071e5fba018d194c8208837737bb743, type: 3}
+--- !u!4 &6683904778690224838 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+    type: 3}
+  m_PrefabInstance: {fileID: 6881840424951645514}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6881840425214531334
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.915
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000044
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.884001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008742278
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.9106855e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &634699079163441677 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 6881840425214531334}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6881840425246136416
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.007
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000044
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.884001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008742278
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.9106855e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &634699079194000747 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 6881840425246136416}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6881840425383202319
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.959999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000044
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.884001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008742278
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.9106855e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &634699080139516676 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 6881840425383202319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6881840425855150483
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.975998
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000044
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.884001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008742278
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.9106855e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &634699080645004440 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 6881840425855150483}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6881840425857909010
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.9309998
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000044
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.884001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008742278
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.9106855e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &634699080646730777 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 6881840425857909010}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6881840426111144050
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.990999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000044
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.884001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008742278
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.9106855e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &634699080599025017 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 6881840426111144050}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6937474446058308008
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.394
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999951
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.460999
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 579585772903415094, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Corner_Oak (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 579585772903415094, guid: c071e5fba018d194c8208837737bb743,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c071e5fba018d194c8208837737bb743, type: 3}
+--- !u!4 &7135415796176561700 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 234409952330344332, guid: c071e5fba018d194c8208837737bb743,
+    type: 3}
+  m_PrefabInstance: {fileID: 6937474446058308008}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7075690653645290288
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.9769993
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999949
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.945
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &3854576870239247931 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 7075690653645290288}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7251462619302719147
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.952
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999975
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &3741801628330085280 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 7251462619302719147}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7750609226422864380
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.0109997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999949
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.945
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &4377604470324129015 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 7750609226422864380}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7831474194946429047
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.952
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999966
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.9799995
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &4314780895106282876 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 7831474194946429047}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8021354305973496033
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.887
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999949
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.945
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &4043741166485736938 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 8021354305973496033}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8874220450728060362
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.9560003
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09999949
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.945
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &3199880583534543041 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 8874220450728060362}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9203137817060618250
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8198952741018012413}
+    m_Modifications:
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.952
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.9529991
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000001545431
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Low_Oak (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630427540754825137, guid: 87e7b2406d61d1a45af7666b0a1813da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e7b2406d61d1a45af7666b0a1813da, type: 3}
+--- !u!4 &2952055684197553409 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6291478190369547531, guid: 87e7b2406d61d1a45af7666b0a1813da,
+    type: 3}
+  m_PrefabInstance: {fileID: 9203137817060618250}
+  m_PrefabAsset: {fileID: 0}

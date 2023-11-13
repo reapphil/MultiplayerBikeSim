@@ -20,20 +20,30 @@ namespace Common
 
 #if UNITY_EDITOR
                 return ParrelSync.ClonesManager.IsClone();
-#endif
+#else
                 return false;
+#endif
             }
         }
+
+        public static GameLauncher Instance;
 
         [Header("Startup")]
         [Tooltip("Set to true, if you are testing a specific scene (Not the lobby) to accept the connection request")]
         public bool IsDirectStart;
         public string SessionId = "FHOOE";
+        [Header("Master Startup")] 
+        public string PlayerName; 
         public InputMode InputMode;
+        public bool AddCameraController = true;
+        public VehiclePrefab VehiclePrefab;
         public CameraMode CameraMode;
         public GameMode NetworkInstanceType;
-        [Header("Clone Startup")]
+        [Header("Clone Startup")] 
+        public string PlayerNameClone;
         public InputMode InputModeClone;
+        public bool AddCameraControllerClone = true;
+        public VehiclePrefab VehiclePrefabClone;
         public CameraMode CameraModeClone;
         public GameMode NetworkInstanceTypeClone;
 
@@ -42,13 +52,24 @@ namespace Common
         private NetworkRunner _runner;
         public GameMode GameMode => _gameMode;
         public NetworkRunner Runner => _runner;
-        private BikeNetworkPool _pool;
-        private BikeSceneManager _sceneManager;
+        private BikeSimulatorNetworkPool _pool;
+        private BikeSimulatorSceneManager _simulatorSceneManager;
         
         public static ConnectionStatus ConnectionStatus = ConnectionStatus.Disconnected;
-        private bool _sceneLoadDone;
 
         private GameController _gameController;
+
+        public void Awake()
+        {
+            if (Instance)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                Instance = this;
+            }
+        }
 
         public void Start()
         {
@@ -59,7 +80,7 @@ namespace Common
                 return;
             }
 
-            _sceneManager = GetComponent<BikeSceneManager>();
+            _simulatorSceneManager = GetComponent<BikeSimulatorSceneManager>();
             DontDestroyOnLoad(gameObject);
             setStartParameter();
             JoinOrCreateLobby();
@@ -103,20 +124,21 @@ namespace Common
             _runner.AddCallbacks(this);
 
             if (_pool == null)
-                _pool = gameObject.AddComponent<BikeNetworkPool>();
+                _pool = gameObject.AddComponent<BikeSimulatorNetworkPool>();
 
             string gameId = getSessionId();
-
-		    
+            
             UnityEngine.Debug.Log($"Created gameobject {go.name} - starting game");
             _runner.StartGame(new StartGameArgs
             {
                 GameMode = _gameMode,
                 SessionName = gameId, //_gameMode == GameMode.Shared ? getLobbyName().ToString() : "test",
                 Scene = SceneManager.GetActiveScene().buildIndex,
-                SceneManager = _sceneManager, //go.AddComponent<NetworkSceneManagerDefault>(),
+                SceneManager = _simulatorSceneManager, //go.AddComponent<NetworkSceneManagerDefault>(),
                 ObjectPool = _pool,
                 DisableClientSessionCreation = true,
+                PlayerCount = 20
+                
             });
         }
         
@@ -161,33 +183,22 @@ namespace Common
                 _gameController = runner.Spawn(GlobalSettings.Instance.GameControllerPrefab, Vector3.zero, Quaternion.identity, player);
             }
 
-            BikeRider bikeRider = null;
+            VehicleRider vehicleRider = null;
             if ((runner.Topology == SimulationConfig.Topologies.Shared && runner.LocalPlayer == player) ||
                 runner.IsServer)
             {
-                //BoilUpPlayerTemplate playerTemplate = ParrelSync.ClonesManager.IsClone() ? DataHandler.Instance.Player2 : DataHandler.Instance.Player1;
-                bikeRider = spawnPlayer(runner, player);
-                PlayerManager.AddPlayer(bikeRider);
+                vehicleRider = spawnPlayer(runner, player);
+                PlayerManager.AddPlayer(vehicleRider);
             }
-
-            //roomPlayer.GameState = RoomPlayer.EGameState.Lobby;
+            
             
             Debug.Log($"Player {player} Joined Scene: {_runner.CurrentScene}!", runner);
             SetConnectionStatus(ConnectionStatus.Connected);
-            // if ((SpawnAi || runner.GameMode == GameMode.Single) && !_aiPlayerLoaded && (runner.IsServer || runner.IsSharedModeMasterClient))
-            // {
-            // 	checkForAiPlayerJoin(runner, buPlayer);
-            // }
         }
         
-        private BikeRider spawnPlayer(NetworkRunner runner, PlayerRef? player)
+        private VehicleRider spawnPlayer(NetworkRunner runner, PlayerRef? player)
         {
-            return runner.Spawn(GlobalSettings.Instance.BikeRiderPrefab, Vector3.zero, Quaternion.identity, player, (networkRunner, no) =>
-            {
-                BikeRider rider = no.GetComponent<BikeRider>();
-                rider.InputMode = IsClone ? InputModeClone : InputMode;
-                rider.CameraMode = IsClone ? CameraModeClone :CameraMode;
-            });
+            return runner.Spawn(GlobalSettings.Instance._vehicleRiderPrefab, Vector3.zero, Quaternion.identity, player);
         }
 
 
@@ -201,7 +212,7 @@ namespace Common
             SetConnectionStatus(ConnectionStatus);
         }
 
-        private async void RemovePlayer(NetworkRunner runner, PlayerRef player)
+        private void RemovePlayer(NetworkRunner runner, PlayerRef player)
         {
             if (_gameMode == GameMode.Host || runner.IsSharedModeMasterClient)
             {
@@ -218,11 +229,11 @@ namespace Common
             }
         }
 
-        private void despawnBikeRider(NetworkRunner runner, BikeRider bikeRider)
+        private void despawnBikeRider(NetworkRunner runner, VehicleRider vehicleRider)
         {
             UnityEngine.Debug.Log($"PlayerRemoved from inside GameLauncher.despawnBuPlayer");
-            Runner.Despawn(bikeRider.Object);
-            Debug.Log($"{bikeRider}.name}} removed from GameController and despawned.", runner);
+            Runner.Despawn(vehicleRider.Object);
+            Debug.Log($"{vehicleRider}.name}} removed from GameController and despawned.", runner);
         }
 
         public void OnInput(NetworkRunner runner, NetworkInput input)
@@ -260,9 +271,9 @@ namespace Common
                 request.Accept();
                 return;
             }
-            if (runner.CurrentScene != BikeSceneManager.LOBBY_SCENE)
+            if (runner.CurrentScene != BikeSimulatorSceneManager.LOBBY_SCENE)
             {
-                UnityEngine.Debug.LogWarning($"Refused connection requested by {request.RemoteAddress}");
+                UnityEngine.Debug.LogWarning($"Refused connection requested by {request.RemoteAddress}. Make sure the scene is added to the build settings and that IsDirectStart is checked if the StartUp scene is not the LobbyScene(BuildIndex: 0)");
                 request.Refuse();
             }
             else
@@ -320,7 +331,7 @@ namespace Common
 
         public void OnSceneLoadDone(NetworkRunner runner)
         {
-            _sceneLoadDone = true;
+            
         }
 
         public void OnSceneLoadStart(NetworkRunner runner)

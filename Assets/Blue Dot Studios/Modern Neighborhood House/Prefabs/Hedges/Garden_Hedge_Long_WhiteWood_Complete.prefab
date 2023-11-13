@@ -1,0 +1,3224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6475814013176244152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 743970095914953164}
+  m_Layer: 0
+  m_Name: Garden_Hedge_Long_WhiteWood_Complete
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &743970095914953164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6475814013176244152}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 9142479819103008572}
+  - {fileID: 654395170498893724}
+  - {fileID: 2883856912360833193}
+  - {fileID: 2325546775099747916}
+  - {fileID: 7755868275674472261}
+  - {fileID: 8467023025330194028}
+  - {fileID: 198297513647862500}
+  - {fileID: 7289657465418467455}
+  - {fileID: 1905486242580102363}
+  - {fileID: 5455560633492158019}
+  - {fileID: 8494368528009625583}
+  - {fileID: 2277996692085322997}
+  - {fileID: 4751860645980469445}
+  - {fileID: 2124003677650308438}
+  - {fileID: 1807468370848243928}
+  - {fileID: 5952764326217604962}
+  - {fileID: 1076180195294711565}
+  - {fileID: 1478826242652037659}
+  - {fileID: 3672875559303131886}
+  - {fileID: 1823617986031153898}
+  - {fileID: 3117009789600342048}
+  - {fileID: 5959300812696466458}
+  - {fileID: 9001959035336301206}
+  - {fileID: 3702088854660256167}
+  - {fileID: 6364020865642722803}
+  - {fileID: 4927413717620729006}
+  - {fileID: 1421519584704140137}
+  - {fileID: 4462642468804881774}
+  - {fileID: 188693724451131287}
+  - {fileID: 3801656465353027589}
+  - {fileID: 2067407019906196298}
+  - {fileID: 3283745738831268593}
+  - {fileID: 5144623667086986085}
+  - {fileID: 6089763681519571113}
+  - {fileID: 7905367301062844634}
+  - {fileID: 6928827608239977356}
+  - {fileID: 2388881288241654550}
+  - {fileID: 9142343253915909572}
+  - {fileID: 7115130644829646786}
+  - {fileID: 7189581900830993539}
+  - {fileID: 3158686656970256455}
+  - {fileID: 941351375422098884}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &11429519087572229
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.8785
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.938
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.70701665
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -3.907985e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.707197
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000003091259
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -269.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (35)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &7189581900830993539 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 11429519087572229}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &94602171246564932
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.8785
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.954
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.70701665
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -3.907985e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.707197
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000003091259
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -269.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (34)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &7115130644829646786 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 94602171246564932}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &271973323919903242
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.8785
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.998
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.70701665
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -3.907985e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.707197
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000003091259
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -269.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (31)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &6928827608239977356 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 271973323919903242}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &487529384609722873
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.932
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.095
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.8831
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 4.031698e-34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008742278
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -5.3531012e-24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &7289657465418467455 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 487529384609722873}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &597989917502252739
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.884
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.095
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.8831
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 4.031698e-34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008742278
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -5.3531012e-24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &7755868275674472261 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 597989917502252739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1034592195789068636
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.8785
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.982
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.70701665
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -3.907985e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.707197
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000003091259
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -269.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (30)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &7905367301062844634 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 1034592195789068636}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1588665212950906473
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.095
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.8831
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 4.031698e-34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008742278
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -5.3531012e-24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &8494368528009625583 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 1588665212950906473}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1616498864300031978
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.901
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.095
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.8831
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 4.031698e-34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008742278
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -5.3531012e-24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &8467023025330194028 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 1616498864300031978}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2093678443251647554
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.8785
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.70701665
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -3.907985e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.707197
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000003091259
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -269.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (33)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &9142343253915909572 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 2093678443251647554}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2179808945328193382
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.857
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.093
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.868
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071665
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 5.3290705e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7070471
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000030906012
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 89.990005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776433390126813920, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_Corner_WhiteWood
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f6dbcf19a9bb77645be2f5806c2a0a8c, type: 3}
+--- !u!4 &9142479819103008572 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2179808945328193382}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2234770300776899344
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.9427
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.00007364153
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -1.4762605e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000043711413
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -179.992
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &9001959035336301206 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 2234770300776899344}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2457872100176822595
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.9502
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.8894
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70712274
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 3.5527137e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70709085
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000030907927
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -89.997
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &4751860645980469445 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 2457872100176822595}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2633271267364008675
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.8785
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.9516
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.70701665
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -3.907985e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.707197
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000003091259
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -269.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (28)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &5144623667086986085 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 2633271267364008675}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2850687410820046120
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.9427
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.00007364153
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -1.4762605e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000043711413
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -179.992
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (21)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &4927413717620729006 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 2850687410820046120}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2907098633794441157
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.969
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.095
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.8831
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 4.031698e-34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008742278
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -5.3531012e-24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &5455560633492158019 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 2907098633794441157}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3557189703063621020
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.9502
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.947
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70712274
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 3.5527137e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70709085
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000030907927
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -89.997
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &5959300812696466458 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 3557189703063621020}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3563027002285991652
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.9502
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.937
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70712274
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 3.5527137e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70709085
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000030907927
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -89.997
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &5952764326217604962 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 3563027002285991652}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3993903963186161967
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.8785
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.968
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.70701665
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -3.907985e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.707197
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000003091259
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -269.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (29)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &6089763681519571113 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 3993903963186161967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4305325732843621493
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.989
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.9427
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.00007364153
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -1.4762605e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000043711413
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -179.992
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (20)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &6364020865642722803 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 4305325732843621493}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4676601337019803158
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.089999974
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.928349
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.00020423529
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -3.43588e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000043711402
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -179.977
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776433390126813920, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_Corner_WhiteWood (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f6dbcf19a9bb77645be2f5806c2a0a8c, type: 3}
+--- !u!4 &2325546775099747916 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 4676601337019803158}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4812412226336477840
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.8785
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.014
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.70701665
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -3.907985e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.707197
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000003091259
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -269.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (32)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &2388881288241654550 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 4812412226336477840}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5205023675787151809
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.8785
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.911
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.70701665
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -3.907985e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.707197
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000003091259
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -269.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (36)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &3158686656970256455 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 5205023675787151809}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5234630609256319219
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.932318
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.928
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70723474
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -1.2434498e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7069788
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000003090304
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -89.979004
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776433390126813920, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_Corner_WhiteWood (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f6dbcf19a9bb77645be2f5806c2a0a8c, type: 3}
+--- !u!4 &2883856912360833193 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 5234630609256319219}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5237627337897138598
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.9502
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.981
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70712274
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 3.5527137e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70709085
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000030907927
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -89.997
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &3117009789600342048 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 5237627337897138598}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5655440218297037687
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.886
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.9427
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.00007364153
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -1.4762605e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000043711413
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -179.992
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (27)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &3283745738831268593 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 5655440218297037687}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5804695172583647265
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.973
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.9427
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.00007364153
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -1.4762605e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000043711413
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -179.992
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (19)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &3702088854660256167 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 5804695172583647265}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5843052658265082728
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.9502
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70712274
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 3.5527137e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70709085
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000030907927
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -89.997
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &3672875559303131886 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 5843052658265082728}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6281448194108803459
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.951
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.9427
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.00007364153
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -1.4762605e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000043711413
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -179.992
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (25)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &3801656465353027589 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 6281448194108803459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6773519520240702696
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.974
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.9427
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.00007364153
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -1.4762605e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000043711413
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -179.992
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (23)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &4462642468804881774 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 6773519520240702696}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7002643573101431650
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.095
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.8831
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 4.031698e-34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008742278
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -5.3531012e-24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &198297513647862500 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 7002643573101431650}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7021184672636974609
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.961
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.9427
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.00007364153
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -1.4762605e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000043711413
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -179.992
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (24)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &188693724451131287 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 7021184672636974609}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7616783976583126982
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.932
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.092999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.8680725
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 5.3290705e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00017023085
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -7.424217e-12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.020000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776433390126813920, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_Corner_WhiteWood (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f6dbcf19a9bb77645be2f5806c2a0a8c, type: 3}
+--- !u!4 &654395170498893724 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6962741337008277594, guid: f6dbcf19a9bb77645be2f5806c2a0a8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7616783976583126982}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7854631364814632587
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.9502
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.949
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70712274
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 3.5527137e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70709085
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000030907927
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -89.997
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &1076180195294711565 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 7854631364814632587}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7997908764389602370
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.8785
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.895
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.70701665
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -3.907985e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.707197
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000003091259
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -269.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (37)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &941351375422098884 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 7997908764389602370}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8094196908282473199
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.016
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.9427
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.00007364153
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -1.4762605e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000043711413
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -179.992
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (22)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &1421519584704140137 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 8094196908282473199}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8605188195035650973
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.9502
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.032
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70712274
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 3.5527137e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70709085
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000030907927
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -89.997
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &1478826242652037659 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 8605188195035650973}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8763925811206128989
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.956
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.095
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.8831
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 4.031698e-34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008742278
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -5.3531012e-24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &1905486242580102363 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 8763925811206128989}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8836299236167813996
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.9502
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.995
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70712274
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 3.5527137e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70709085
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000030907927
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -89.997
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &1823617986031153898 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 8836299236167813996}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8861807928543877470
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.9502
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.922
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70712274
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 3.5527137e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70709085
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000030907927
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -89.997
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &1807468370848243928 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 8861807928543877470}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8967524888758865267
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.095
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.8831
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 4.031698e-34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008742278
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -5.3531012e-24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &2277996692085322997 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 8967524888758865267}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9122014264914654416
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.9502
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.905
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70712274
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 3.5527137e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70709085
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000030907927
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -89.997
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &2124003677650308438 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 9122014264914654416}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9178048007056693964
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 743970095914953164}
+    m_Modifications:
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.896
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.9427
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.00007364153
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -1.4762605e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000043711413
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -179.992
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540658685220004668, guid: 03d475bf2ddf05c448fe2762696f9393,
+        type: 3}
+      propertyPath: m_Name
+      value: Garden_Hedge_Long_WhiteWood (26)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03d475bf2ddf05c448fe2762696f9393, type: 3}
+--- !u!4 &2067407019906196298 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200725512534161798, guid: 03d475bf2ddf05c448fe2762696f9393,
+    type: 3}
+  m_PrefabInstance: {fileID: 9178048007056693964}
+  m_PrefabAsset: {fileID: 0}

@@ -5,12 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Basic City Environment.unity
     guid: c576ead39043c414c914f02ed753a4cd
+  - enabled: 1
+    path: Assets/Scenes/MNH_Day.unity
+    guid: 1465a7db565b89945aab27f430acffe3
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 0359ee7a8a12c3146a09bc7cf5f74ef0,
       type: 2}

@@ -3,7 +3,7 @@
 --- !u!129 &1
 PlayerSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 23
+  serializedVersion: 24
   productGUID: 49d6d24f9a4e3aa41a22250fdb4589bf
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
@@ -178,10 +178,10 @@ PlayerSettings:
   StripUnusedMeshComponents: 0
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 11.0
+  iOSTargetOSVersionString: 12.0
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
-  tvOSTargetOSVersionString: 11.0
+  tvOSTargetOSVersionString: 12.0
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIRequiresFullScreen: 1
@@ -620,7 +620,6 @@ PlayerSettings:
   switchReleaseVersion: 0
   switchDisplayVersion: 1.0.0
   switchStartupUserAccount: 0
-  switchTouchScreenUsage: 0
   switchSupportedLanguagesMask: 0
   switchLogoType: 0
   switchApplicationErrorCodeCategory: 
@@ -662,6 +661,7 @@ PlayerSettings:
   switchNativeFsCacheSize: 32
   switchIsHoldTypeHorizontal: 0
   switchSupportedNpadCount: 8
+  switchEnableTouchScreen: 1
   switchSocketConfigEnabled: 0
   switchTcpInitialSendBufferSize: 32
   switchTcpInitialReceiveBufferSize: 64
@@ -776,19 +776,47 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: UDUINO_READY;UDUINO_MEGA_MESSAGE;FUSION_WEAVER
+    Android: BCG_RCC;BCG_ENTEREXIT;RCC_PHOTON
+    EmbeddedLinux: BCG_RCC;BCG_ENTEREXIT;RCC_PHOTON
+    GameCoreScarlett: BCG_RCC;BCG_ENTEREXIT;RCC_PHOTON
+    GameCoreXboxOne: BCG_RCC;BCG_ENTEREXIT;RCC_PHOTON
+    LinuxHeadlessSimulation: BCG_RCC;BCG_ENTEREXIT;RCC_PHOTON
+    Lumin: BCG_RCC;BCG_ENTEREXIT;RCC_PHOTON
+    Nintendo Switch: BCG_RCC;BCG_ENTEREXIT;RCC_PHOTON
+    PS4: BCG_RCC;BCG_ENTEREXIT;RCC_PHOTON
+    PS5: BCG_RCC;BCG_ENTEREXIT;RCC_PHOTON
+    Stadia: BCG_RCC;BCG_ENTEREXIT;RCC_PHOTON
+    Standalone: UDUINO_READY;UDUINO_MEGA_MESSAGE;FUSION_WEAVER;BCG_RCC;BCG_ENTEREXIT;RCC_PHOTON
+    WebGL: BCG_RCC;BCG_ENTEREXIT;RCC_PHOTON
+    Windows Store Apps: BCG_RCC;BCG_ENTEREXIT;RCC_PHOTON
+    XboxOne: BCG_RCC;BCG_ENTEREXIT;RCC_PHOTON
+    iPhone: BCG_RCC;BCG_ENTEREXIT;RCC_PHOTON
+    tvOS: BCG_RCC;BCG_ENTEREXIT;RCC_PHOTON
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
     Android: 1
   il2cppCompilerConfiguration: {}
-  managedStrippingLevel: {}
+  managedStrippingLevel:
+    Android: 1
+    EmbeddedLinux: 1
+    GameCoreScarlett: 1
+    GameCoreXboxOne: 1
+    Lumin: 1
+    Nintendo Switch: 1
+    PS4: 1
+    PS5: 1
+    Stadia: 1
+    WebGL: 1
+    Windows Store Apps: 1
+    XboxOne: 1
+    iPhone: 1
+    tvOS: 1
   incrementalIl2cppBuild: {}
   suppressCommonWarnings: 1
   allowUnsafeCode: 0
   useDeterministicCompilation: 1
   enableRoslynAnalyzers: 1
-  selectedPlatform: 0
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
   gcIncremental: 0

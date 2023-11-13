@@ -4,6 +4,6 @@ namespace BikeInputs
 {
     public class BikeKeyboardInput : BikeGamePadInput
     {
-        public override InputMode InputMode => InputMode.KeyboardWASD;
+        public override bool IsGamePad => false;
     }
 }

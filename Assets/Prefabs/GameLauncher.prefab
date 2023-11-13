@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4544336022726143303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4544336022726143304}
+  - component: {fileID: 4544336022726143305}
+  - component: {fileID: 4544336022726143302}
+  - component: {fileID: 4544336022726143306}
+  - component: {fileID: 4544336022726143307}
+  m_Layer: 0
+  m_Name: GameLauncher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4544336022726143304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4544336022726143303}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4544336022726143305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4544336022726143303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43b68020ab864a81b3666a544af502ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsDirectStart: 1
+  SessionId: FHOOE
+  PlayerName: Hannes
+  InputMode: 0
+  AddCameraController: 1
+  VehiclePrefab: 0
+  CameraMode: 1
+  NetworkInstanceType: 4
+  PlayerNameClone: Franziska
+  InputModeClone: 1
+  AddCameraControllerClone: 1
+  VehiclePrefabClone: 1
+  CameraModeClone: 0
+  NetworkInstanceTypeClone: 5
+--- !u!114 &4544336022726143302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4544336022726143303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 788ba64fd6b94dd48ff3c5f7180167cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GamePadControllerPrefab: {fileID: 5784598265851625023, guid: 5ecaf61693c0aa1429a253f8852fbb05,
+    type: 3}
+  KeyboardWASDControllerPrefab: {fileID: -5718706937424511243, guid: cad3bfa2000245f45a1537fcc31209f6,
+    type: 3}
+  KeyboardCursorControllerPrefab: {fileID: -1278885443445435442, guid: 3fef896fb5056c74ca9d92fbc40ac1cc,
+    type: 3}
+  VRControllerPrefab: {fileID: 8901705421772136250, guid: c8a556cb2621bff499c0c8633dea069d,
+    type: 3}
+  CustomInput1Prefab: {fileID: 0}
+  CustomInput2Prefab: {fileID: 0}
+  CustomInput3Prefab: {fileID: 0}
+  StandardBikePrefab: {fileID: 3991547641851753513, guid: 7b9017a5d1ab6184ab86757e3857d8b4,
+    type: 3}
+  StandardCarPrefab: {fileID: 7027895820485921096, guid: 1e744f1ead29a934da2157724e66a512,
+    type: 3}
+  CustomVehiclePrefab: {fileID: 0}
+  _vehicleRiderPrefab: {fileID: 7222348331916164247, guid: 427e0d8d342ca2945a4097f31a29263c,
+    type: 3}
+  GameControllerPrefab: {fileID: 3172668660009283456, guid: fd5608bfe15f75c4492514a84919c7a3,
+    type: 3}
+--- !u!114 &4544336022726143306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4544336022726143303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 579e1568a7974e138588f404244ab3a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4544336022726143307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4544336022726143303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c070c5477e347de88ef3677c63ddc07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowHierarchyWindowOverlay: 1
