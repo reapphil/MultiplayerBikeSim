@@ -23,7 +23,7 @@ this transform is not used directly but beware of the affect on the local rotati
 */
 
 [RequireComponent(typeof(Rigidbody))]
-public class BikeController : BaseVehicleController, INetworkRunnerCallbacks
+public class BikeController : BaseVehicleController
 {
     
     [SerializeField] private Transform vRPlayerPositionTransform; //empty to use for adjusting the VR player position
