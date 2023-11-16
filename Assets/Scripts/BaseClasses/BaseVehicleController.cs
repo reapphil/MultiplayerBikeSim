@@ -6,11 +6,14 @@ using Fusion;
 using Fusion.Sockets;
 using Network;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace BaseClasses
 {
     public class BaseVehicleController : NetworkBehaviour, INetworkRunnerCallbacks
     {
+        
+        
         [Networked]
         public VehicleRider VehicleRider { get; set; }
     
@@ -21,6 +24,8 @@ namespace BaseClasses
         protected float _steeringAngle { get; set; }
 
         public float SpawnOffsetY = 0;
+        
+        [FormerlySerializedAs("VRPlayerPositionTransform")] public Transform VRInputControllerPosition; 
         [SerializeField] protected GameObject _thirdPersonCamera;
         [SerializeField] protected GameObject _firstPersonCamera;
         
@@ -76,12 +81,18 @@ namespace BaseClasses
                 setCameraMode();
                 if (!vehicleRider.IsVR && vehicleRider.AddCameraController)
                 {
+                    inputController.transform.SetParent(transform);
                     if(_thirdPersonCamera)
                         _thirdPersonCamera.gameObject.AddComponent<CameraController>();
                     if(_firstPersonCamera)
                         _firstPersonCamera.gameObject.AddComponent<CameraController>();
                 }
-
+                else if (vehicleRider.IsVR)
+                {
+                    inputController.transform.SetParent(VRInputControllerPosition);
+                    DeactivateCamera();
+                }
+                inputController.transform.localPosition = Vector3.zero;
                 LevelSettings.Instance.DeactivateOverviewCamera();
             }
             else

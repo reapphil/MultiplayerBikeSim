@@ -1,9 +1,11 @@
 using System.Collections.Generic;
+using System.Globalization;
 using BaseClasses;
 using Enums;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using Uduino;
+using UnityEngine.Serialization;
 
 /*
 This script enables steering the bike with a VR controller. As well as controlling the speed with serial data from an arduino.
@@ -18,6 +20,8 @@ public class BikeVRInput : InputBase
 {
     [SerializeField] private Camera _camera;
     [SerializeField] private ActionBasedController roationController;
+
+    [SerializeField] private Transform _xrOrigin;
     //[SerializeField] private Transform handleBar; //nessesairy to get the correct rotation axis
 
     [SerializeField] private bool printSerialData = false;
@@ -33,8 +37,9 @@ public class BikeVRInput : InputBase
     public override void Initialize(BaseVehicleController baseVehicleController)
     {
         _bikeControllerScript = baseVehicleController as BikeController;
+        
         UduinoManager.Instance.OnDataReceived += ProcessSerialData;
-
+        
         controllerZeroRotation = roationController.transform.localRotation;
         initialHandlebarRotation = _bikeControllerScript.HandleBar.localRotation;
         var inputDevices = new List<UnityEngine.XR.InputDevice>();
@@ -65,6 +70,12 @@ public class BikeVRInput : InputBase
     public override void Calibrate()
     {
         controllerZeroRotation = roationController.transform.localRotation;
+        Quaternion yRot = Quaternion.Euler(0,_camera.transform.localEulerAngles.y,0);
+        Vector3 xrPos = _camera.transform.localPosition;
+        xrPos.y = 0;
+        _xrOrigin.localPosition = -xrPos;
+        transform.localRotation = Quaternion.Inverse(yRot);
+
     }
 
     void Update()
@@ -72,12 +83,18 @@ public class BikeVRInput : InputBase
         if(roationController.activateActionValue.action.ReadValue<float>() > 0.5f)
             Calibrate();
 
-        //calculate difference between current and initial rotation of the controller
-        //rotate this rotation with the inverse (initial) rotaion of the handle bar (to consider head angle in rotation)
-        //take euler y component of the rotation
-        float steeringAngle = (Quaternion.Inverse(initialHandlebarRotation)*(Quaternion.Inverse(controllerZeroRotation) * roationController.transform.localRotation)).eulerAngles.y;
-        _steeringAngle = steeringAngle;
-        //bikeControllerScript.steeringAngle = steeringAngle;
+        if (controllerZeroRotation == Quaternion.identity && roationController.transform.localRotation != Quaternion.identity)
+        {
+            controllerZeroRotation = roationController.transform.localRotation;
+            Calibrate();
+        }
+
+        if (controllerZeroRotation != Quaternion.identity)
+        {
+            float steeringAngle =
+                (Quaternion.Inverse(controllerZeroRotation) * roationController.transform.localRotation).eulerAngles.y;
+            _steeringAngle = steeringAngle;
+        }
     }
 
     void ProcessSerialData(string data, UduinoDevice device)
@@ -103,10 +120,11 @@ public class BikeVRInput : InputBase
 
             if(key == "speedOut")
             {
-                if (float.TryParse(value, out float speed))
+                if (float.TryParse(value, NumberStyles.Float, CultureInfo.InvariantCulture, out float speed))
                 {
                     speed /= 3.6f; //conversion to m/s
                     _speed = speed;
+                    Debug.Log($"Speed: {_speed:N2}");
                     //bikeControllerScript.speedInMetersPerSecond = speed;
                 }
             }

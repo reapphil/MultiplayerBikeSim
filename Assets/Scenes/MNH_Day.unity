@@ -3267,6 +3267,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2501997413141717619, guid: eb1ea317113da47459528bc18ba86c92,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501997413141717619, guid: eb1ea317113da47459528bc18ba86c92,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -4818,6 +4823,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GardenFences (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4952229395967315921, guid: 6aeeb823e9197e6499bac1ec4c0cef0d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952229395967315921, guid: 6aeeb823e9197e6499bac1ec4c0cef0d,
         type: 3}
@@ -7202,7 +7212,7 @@ PrefabInstance:
     - target: {fileID: 6475814013176244152, guid: 390a6f9c9c969b14aa301037acbc6721,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6475814013176244152, guid: 390a6f9c9c969b14aa301037acbc6721,
         type: 3}
@@ -8805,7 +8815,7 @@ PrefabInstance:
     - target: {fileID: 5147929512090537861, guid: 2ed88e26878caf84eaa0b17d76c0abb8,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5147929512090537861, guid: 2ed88e26878caf84eaa0b17d76c0abb8,
         type: 3}
@@ -10916,6 +10926,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Garden_Fence_C
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501997413141717619, guid: eb1ea317113da47459528bc18ba86c92,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2501997413141717619, guid: eb1ea317113da47459528bc18ba86c92,
         type: 3}
@@ -13669,7 +13684,7 @@ PrefabInstance:
     - target: {fileID: 6475814013176244152, guid: 390a6f9c9c969b14aa301037acbc6721,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6475814013176244152, guid: 390a6f9c9c969b14aa301037acbc6721,
         type: 3}
@@ -16067,6 +16082,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2501997413141717619, guid: eb1ea317113da47459528bc18ba86c92,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501997413141717619, guid: eb1ea317113da47459528bc18ba86c92,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -17447,6 +17467,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_D (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8280152689557227636, guid: 61dd9a8fdaed37341bbae10699111ef6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8280152689557227636, guid: 61dd9a8fdaed37341bbae10699111ef6,
         type: 3}
@@ -26851,6 +26876,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2501997413141717619, guid: eb1ea317113da47459528bc18ba86c92,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501997413141717619, guid: eb1ea317113da47459528bc18ba86c92,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -27899,7 +27929,7 @@ PrefabInstance:
     - target: {fileID: 2469417660878931081, guid: 04e57b5594646fa4cbd92ec23fb99f16,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2469417660878931081, guid: 04e57b5594646fa4cbd92ec23fb99f16,
         type: 3}
@@ -33548,7 +33578,7 @@ PrefabInstance:
     - target: {fileID: 5147929512090537861, guid: 2ed88e26878caf84eaa0b17d76c0abb8,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5147929512090537861, guid: 2ed88e26878caf84eaa0b17d76c0abb8,
         type: 3}
@@ -34940,6 +34970,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Garden_Fence_Road (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157903239131877989, guid: 66aaaef0620927340b56a21fa1d9a202,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9157903239131877989, guid: 66aaaef0620927340b56a21fa1d9a202,
         type: 3}
@@ -39800,6 +39835,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4538856750238677631, guid: 6ade6fbf30ed53a43ac01a4fd5c0c8fe,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538856750238677631, guid: 6ade6fbf30ed53a43ac01a4fd5c0c8fe,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -41137,6 +41177,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2501997413141717619, guid: eb1ea317113da47459528bc18ba86c92,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501997413141717619, guid: eb1ea317113da47459528bc18ba86c92,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -41653,7 +41698,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1112936105
 Transform:
   m_ObjectHideFlags: 0
@@ -42054,7 +42099,7 @@ PrefabInstance:
     - target: {fileID: 5147929512090537861, guid: 2ed88e26878caf84eaa0b17d76c0abb8,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5147929512090537861, guid: 2ed88e26878caf84eaa0b17d76c0abb8,
         type: 3}
@@ -42584,7 +42629,7 @@ PrefabInstance:
     - target: {fileID: 6475814013176244152, guid: 390a6f9c9c969b14aa301037acbc6721,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6475814013176244152, guid: 390a6f9c9c969b14aa301037acbc6721,
         type: 3}
@@ -45227,7 +45272,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1180251882
 Transform:
   m_ObjectHideFlags: 0
@@ -49346,7 +49391,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1298034747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54721,7 +54766,7 @@ PrefabInstance:
     - target: {fileID: 2469417660878931081, guid: 04e57b5594646fa4cbd92ec23fb99f16,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2469417660878931081, guid: 04e57b5594646fa4cbd92ec23fb99f16,
         type: 3}
@@ -57813,6 +57858,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DevStuff
       objectReference: {fileID: 0}
+    - target: {fileID: 2459875564358198476, guid: 51857189bfccb834a99ef2b37039ecf0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2459875564358198479, guid: 51857189bfccb834a99ef2b37039ecf0,
         type: 3}
       propertyPath: m_RootOrder
@@ -60038,7 +60088,7 @@ PrefabInstance:
     - target: {fileID: 5147929512090537861, guid: 2ed88e26878caf84eaa0b17d76c0abb8,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5147929512090537861, guid: 2ed88e26878caf84eaa0b17d76c0abb8,
         type: 3}
@@ -60237,8 +60287,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4544336022726143305, guid: 5515d51fed6ee28499798707a3394e06,
         type: 3}
+      propertyPath: InputMode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544336022726143305, guid: 5515d51fed6ee28499798707a3394e06,
+        type: 3}
       propertyPath: VehiclePrefab
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544336022726143305, guid: 5515d51fed6ee28499798707a3394e06,
+        type: 3}
+      propertyPath: AddCameraController
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544336022726143305, guid: 5515d51fed6ee28499798707a3394e06,
+        type: 3}
+      propertyPath: NetworkInstanceType
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4544336022726143305, guid: 5515d51fed6ee28499798707a3394e06,
         type: 3}
@@ -60647,7 +60712,7 @@ PrefabInstance:
     - target: {fileID: 5147929512090537861, guid: 2ed88e26878caf84eaa0b17d76c0abb8,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5147929512090537861, guid: 2ed88e26878caf84eaa0b17d76c0abb8,
         type: 3}
@@ -60788,6 +60853,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Garden_Fence_C_Corner
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954557855154191789, guid: 489583db7c5ecb748be68a8083acee97,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4954557855154191789, guid: 489583db7c5ecb748be68a8083acee97,
         type: 3}
@@ -64777,6 +64847,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Garden_Fence_C (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501997413141717619, guid: eb1ea317113da47459528bc18ba86c92,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2501997413141717619, guid: eb1ea317113da47459528bc18ba86c92,
         type: 3}
@@ -72222,6 +72297,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2501997413141717619, guid: eb1ea317113da47459528bc18ba86c92,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501997413141717619, guid: eb1ea317113da47459528bc18ba86c92,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -73942,7 +74022,7 @@ PrefabInstance:
     - target: {fileID: 2469417660878931081, guid: 04e57b5594646fa4cbd92ec23fb99f16,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2469417660878931081, guid: 04e57b5594646fa4cbd92ec23fb99f16,
         type: 3}
@@ -74393,6 +74473,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Garden_Hedge_Long_Oak_Complete
+      objectReference: {fileID: 0}
+    - target: {fileID: 5147929512090537861, guid: 2ed88e26878caf84eaa0b17d76c0abb8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5147929512090537861, guid: 2ed88e26878caf84eaa0b17d76c0abb8,
         type: 3}
@@ -78240,6 +78325,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9157903239131877989, guid: 66aaaef0620927340b56a21fa1d9a202,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157903239131877989, guid: 66aaaef0620927340b56a21fa1d9a202,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -78262,6 +78352,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Garden_Fence_C (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501997413141717619, guid: eb1ea317113da47459528bc18ba86c92,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2501997413141717619, guid: eb1ea317113da47459528bc18ba86c92,
         type: 3}
@@ -78705,6 +78800,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Garden_Fence_C (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501997413141717619, guid: eb1ea317113da47459528bc18ba86c92,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2501997413141717619, guid: eb1ea317113da47459528bc18ba86c92,
         type: 3}
@@ -86337,6 +86437,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Garden_Fence_Road
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157903239131877989, guid: 66aaaef0620927340b56a21fa1d9a202,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9157903239131877989, guid: 66aaaef0620927340b56a21fa1d9a202,
         type: 3}

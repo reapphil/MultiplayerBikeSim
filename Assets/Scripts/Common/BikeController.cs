@@ -26,7 +26,7 @@ this transform is not used directly but beware of the affect on the local rotati
 public class BikeController : BaseVehicleController
 {
     
-    [SerializeField] private Transform vRPlayerPositionTransform; //empty to use for adjusting the VR player position
+    //empty to use for adjusting the VR player position
     [SerializeField] private Transform handlebar;
     [SerializeField] private Transform frontWheel;
     [SerializeField] private Transform rearWheel;
@@ -84,6 +84,8 @@ public class BikeController : BaseVehicleController
     public override void Initialize(VehicleRider vehicleRider, InputBase inputController)
     {
         base.Initialize(vehicleRider, inputController);
+        if (vehicleRider.IsVR)
+            tiltFactor = 0;
         initialBikePosition = vehicle.transform.position;
         initialBikeRotation = vehicle.transform.rotation;
         bikeRigidbody = GetComponent<Rigidbody>();
@@ -108,7 +110,13 @@ public class BikeController : BaseVehicleController
         if (GetInput(out VehicleInputData _bikeInput))
         {
             _speedInMetersPerSecond = _bikeInput.Speed;
-            _steeringAngle = _bikeInput.SteeringAngle;
+            _steeringAngle = VehicleRider.IsVR ? _bikeInput.SteeringAngleRaw : _bikeInput.SteeringAngle;
+        }
+
+        if (HasInputAuthority)
+        {
+            _speedInMetersPerSecond = _inputController.GetSpeed();
+            _steeringAngle = VehicleRider.IsVR ? _bikeInput.SteeringAngleRaw : _bikeInput.SteeringAngle;
         }
         
          _animatorBike.SetFloat(_speedHash,_speedInMetersPerSecond);
@@ -164,7 +172,7 @@ public class BikeController : BaseVehicleController
 
 
 
-        updateFirstPersonCamera(lastSmoothTilt);
+        //updateFirstPersonCamera(lastSmoothTilt);
 
 
         //Debug Lines
@@ -199,26 +207,26 @@ public class BikeController : BaseVehicleController
         }
     }
 
-    private void updateFirstPersonCamera(float lastSmoothTilt)
-    {
-        if (HasInputAuthority && CameraMode == CameraMode.FirstPerson && VehicleRider.IsVR)
-        {
-            //Moving and turning the VR Player with the bike
-            //Smoothing VR Camera transforms slightly to reduce jitter and motion sickness
-            _firstPersonCamera.transform.position = Vector3.Lerp(_firstPersonCamera.transform.position,
-                vRPlayerPositionTransform.position, Runner.DeltaTime * 30f);
-            smoothBikeRotation = Quaternion.Lerp(smoothBikeRotation, vehicle.transform.rotation, Runner.DeltaTime * 20f);
-            float deltaBikeRotationY = smoothBikeRotation.eulerAngles.y - lastBikeRotationY;
-            lastBikeRotationY = smoothBikeRotation.eulerAngles.y;
-            Vector3 vrRotation = _firstPersonCamera.transform.rotation.eulerAngles;
-            float smoothTiltDelta = smoothTilt - lastSmoothTilt;
-            Quaternion deltaRotationY = Quaternion.Euler(0, deltaBikeRotationY, 0);
-            Quaternion deltaTiltRotation = Quaternion.Euler(0, 0, smoothTiltDelta);
-            //VRCamera.transform.rotation = deltaRotationY * deltaTiltRotation * VRCamera.transform.rotation;
-            _firstPersonCamera.transform.rotation = Quaternion.Euler(vrRotation.x, vrRotation.y + deltaBikeRotationY,
-                vrRotation.z + smoothTiltDelta);
-        }
-    }
+    // private void updateFirstPersonCamera(float lastSmoothTilt)
+    // {
+    //     if (HasInputAuthority && VehicleRider.IsVR)
+    //     {
+    //         //Moving and turning the VR Player with the bike
+    //         //Smoothing VR Camera transforms slightly to reduce jitter and motion sickness
+    //         _firstPersonCamera.transform.position = Vector3.Lerp(_firstPersonCamera.transform.position,
+    //             VRPlayerPositionTransform.position, Runner.DeltaTime * 30f);
+    //         smoothBikeRotation = Quaternion.Lerp(smoothBikeRotation, vehicle.transform.rotation, Runner.DeltaTime * 20f);
+    //         float deltaBikeRotationY = smoothBikeRotation.eulerAngles.y - lastBikeRotationY;
+    //         lastBikeRotationY = smoothBikeRotation.eulerAngles.y;
+    //         Vector3 vrRotation = _firstPersonCamera.transform.rotation.eulerAngles;
+    //         float smoothTiltDelta = smoothTilt - lastSmoothTilt;
+    //         Quaternion deltaRotationY = Quaternion.Euler(0, deltaBikeRotationY, 0);
+    //         Quaternion deltaTiltRotation = Quaternion.Euler(0, 0, smoothTiltDelta);
+    //         //VRCamera.transform.rotation = deltaRotationY * deltaTiltRotation * VRCamera.transform.rotation;
+    //         _firstPersonCamera.transform.rotation = Quaternion.Euler(vrRotation.x, vrRotation.y + deltaBikeRotationY,
+    //             vrRotation.z + smoothTiltDelta);
+    //     }
+    // }
 
     public void ResetBike() //not tested yet sorry
     {

@@ -768,15 +768,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
-  _Rider: {fileID: 0}
+  _VehicleRider: {fileID: 0}
+  SpawnOffsetY: 0
+  _thirdPersonCamera: {fileID: 0}
+  _firstPersonCamera: {fileID: 0}
+  PlayerNameControl: {fileID: 0}
   vRPlayerPositionTransform: {fileID: 1531498369}
   handlebar: {fileID: 5317810385527012703}
   frontWheel: {fileID: 5317810385527092439}
   rearWheel: {fileID: 5317810385527083669}
   wheelRadius: 0.3288647
   wheelbase: 0.6
-  tiltFactor: 0.3
+  tiltFactor: 0
   drawDebug: 0
+  _avatar: {fileID: 0}
+  _animatorBike: {fileID: 0}
+  _animatorRider: {fileID: 0}
 --- !u!54 &8964801812083220394
 Rigidbody:
   m_ObjectHideFlags: 0

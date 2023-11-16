@@ -15,7 +15,7 @@ namespace Common
         [Networked]
         public BaseVehicleController Vehicle { get; set; }
         
-        public bool IsVR;
+        public bool IsVR => InputMode == InputMode.VR;
         public InputBase InputController;
         public bool IsLocal;
         public bool AddCameraController => PlayerData.AddCameraController;
@@ -93,7 +93,7 @@ namespace Common
             InputBase inputControllerPrefab = GameController.GlobalSettings.GetInputControllerPrefab(InputMode);
             if (inputControllerPrefab)
             {
-                InputController = Instantiate(inputControllerPrefab, Vehicle.transform)
+                InputController = Instantiate(inputControllerPrefab)
                     .GetComponent<InputBase>();
             }
             else
